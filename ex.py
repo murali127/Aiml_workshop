@@ -13,7 +13,7 @@ xs = np.array([50.0, 100.0, 150.0, 200.0, 250.0, 300.0], dtype=float)
 ys = np.array([0.0, 1.0, 2.0, 3.0, 4.0, 5.0], dtype=float)
 
 # Train the model
-model.fit(xs, ys, epochs=1000)
+model.fit(xs, ys, epochs=100)
 
 # Make a prediction
 print(model.predict(np.array([7.0])))
